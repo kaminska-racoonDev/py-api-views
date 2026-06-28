@@ -25,7 +25,6 @@ cinemahall_detail = CinemaHallViewSet.as_view(actions={
     "delete": "destroy",
 })
 
-urlpatterns = router.urls
 
 urlpatterns = [
     path("", include(router.urls)),
